@@ -39,17 +39,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+      <file leaf-file-name="MenuMoveTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="StickerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/StickerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="75" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -396,6 +431,9 @@
       <list>
         <option value="$PROJECT_DIR$/test-training/build.gradle" />
         <option value="$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" />
+        <option value="$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java" />
+        <option value="$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/TestBase.java" />
+        <option value="$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/StickerTest.java" />
       </list>
     </option>
   </component>
@@ -437,9 +475,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -486,6 +523,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -497,8 +535,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../java_rpt" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
-  <component name="RunManager" selected="JUnit.MyFirstTest">
-    <configuration default="false" name="MyFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.training.selenium" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MenuMoveTest">
+    <configuration default="false" name="MenuMoveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ru.stqa.training.selenium.*" />
@@ -509,7 +552,33 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.MyFirstTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.MenuMoveTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/test-training" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StickerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="test-training_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.StickerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -768,12 +837,14 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MyFirstTest" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MenuMoveTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StickerTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyFirstTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MenuMoveTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StickerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -791,39 +862,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest - 2016.11.25 at 19h 54m 15s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="MenuMoveTest - 2016.11.26 at 15h 55m 21s.xml">
+      <configuration name="MenuMoveTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest - 2016.11.25 at 19h 56m 02s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="StickerTest - 2016.11.26 at 15h 41m 46s.xml">
+      <configuration name="StickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest - 2016.11.25 at 19h 58m 12s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="StickerTest - 2016.11.26 at 15h 43m 39s.xml">
+      <configuration name="StickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest - 2016.11.25 at 20h 01m 26s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="StickerTest - 2016.11.26 at 15h 46m 44s.xml">
+      <configuration name="StickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest - 2016.11.25 at 20h 02m 23s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="StickerTest - 2016.11.26 at 15h 47m 28s.xml">
+      <configuration name="StickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest - 2016.11.25 at 20h 04m 22s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="StickerTest - 2016.11.26 at 15h 50m 25s.xml">
+      <configuration name="StickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest - 2016.11.25 at 20h 06m 40s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="StickerTest - 2016.11.26 at 15h 52m 04s.xml">
+      <configuration name="StickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest - 2016.11.25 at 20h 07m 49s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="StickerTest - 2016.11.26 at 15h 53m 34s.xml">
+      <configuration name="StickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest - 2016.11.25 at 20h 08m 46s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="StickerTest - 2016.11.26 at 15h 54m 33s.xml">
+      <configuration name="StickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest - 2016.11.25 at 20h 09m 40s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="StickerTest - 2016.11.26 at 15h 54m 52s.xml">
+      <configuration name="StickerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -833,7 +904,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30347145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -873,7 +944,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/StickerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -881,7 +984,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -889,7 +992,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -897,7 +1000,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -905,7 +1008,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -913,59 +1016,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -980,7 +1031,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -995,7 +1046,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1010,7 +1061,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1025,7 +1076,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1033,7 +1084,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/TestBase.java" />
+    <entry file="file://$PROJECT_DIR$/test-training/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.0.1/3a81188df361ddfbf48fe4050bcb9dfceb7af4ab/selenium-support-3.0.1-sources.jar!/org/openqa/selenium/support/ui/ExpectedConditions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-320">
@@ -1048,11 +1158,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/StickerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="75" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,7 +3,6 @@ package ru.stqa.training.selenium;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,26 +12,31 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class MyFirstTest {
-    private WebDriver driver;
-    private WebDriverWait wait;
+/**
+ * Created by Michael on 26.11.2016.
+ */
+public class TestBase {
+    public WebDriver driver;
+    public WebDriverWait wait;
 
     @Before
     public void start(){
+        init();
+    }
+
+    private void init() {
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
-        driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+        goHomePage();
     }
 
-    @Test
-    public void myFirstTest() {
-        goToAdminPage();
-        login();
-        menuItemsMovingTest();
+    private void goHomePage() {
+        driver.get("http://localhost/litecart/");
     }
 
-    private void login() {
+    protected void login() {
         driver.findElement(By.name("username")).clear();
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).clear();
@@ -45,13 +49,14 @@ public class MyFirstTest {
         int count=menuItems.size();
         return count;
     }
+
     private int getSubMenuItemsCount(){
         List<WebElement> menuItems = driver.findElements(By.xpath("//ul[@id='box-apps-menu']/li/ul/li"));
         int subItems = menuItems.size();
         return subItems;
     }
 
-    private void menuItemsMovingTest(){
+    protected void menuItemsMove(){
 
         for (int i = 1; i < getMenuItemsCount()+1; i++){
             driver.findElement(By.xpath("//ul[@id='box-apps-menu']/li[" + i + "]")).click();
@@ -66,7 +71,7 @@ public class MyFirstTest {
         }
     }
 
-    private void goToAdminPage() {
+    protected void goToAdminPage() {
         driver.get("http://localhost/litecart/admin/");
     }
 
@@ -76,6 +81,4 @@ public class MyFirstTest {
         driver = null;
 
     }
-
-
 }
