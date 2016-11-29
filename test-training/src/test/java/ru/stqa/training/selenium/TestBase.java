@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -100,5 +102,25 @@ public class TestBase {
         List<WebElement> menuItems = driver.findElements(By.xpath("//div[@class='image-wrapper']"));
         int mainMenuPicturesCount = menuItems.size();
         return mainMenuPicturesCount;
+    }
+
+    protected void goToCountriesPage() {
+        driver.findElement(By.xpath("//span[contains(text(),'Countries')]")).click();
+    }
+
+    protected void goToGeoZonesPage() {
+        driver.findElement(By.xpath("//span[contains(text(),'Geo Zones')]")).click();
+    }
+
+    public void checkListByAlphabet(List<WebElement> items) {
+
+        List<String> baseList = new ArrayList<>();
+        List<String> sortedList = new ArrayList<>();
+        for (WebElement item : items){
+            baseList.add(item.getAttribute("textContent"));
+            sortedList.add(item.getAttribute("textContent"));
+        }
+        Collections.sort(sortedList);
+        Assert.assertTrue("List is not sorted by alphabet", baseList.equals(sortedList));
     }
 }
