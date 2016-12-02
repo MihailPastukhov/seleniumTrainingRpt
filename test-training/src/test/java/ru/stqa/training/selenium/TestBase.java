@@ -29,7 +29,7 @@ public class TestBase {
     private void init() {
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
-        //driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         goHomePage();
     }
