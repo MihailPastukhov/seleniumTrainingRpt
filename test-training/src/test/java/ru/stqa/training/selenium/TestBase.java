@@ -4,6 +4,7 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,7 +30,7 @@ public class TestBase {
     private void init() {
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
-        driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         goHomePage();
     }
@@ -122,5 +123,14 @@ public class TestBase {
         }
         Collections.sort(sortedList);
         Assert.assertTrue("List is not sorted by alphabet", baseList.equals(sortedList));
+    }
+
+    boolean isElementPresent(WebDriver driver, By locator) {
+        try {
+            driver.findElement(locator);
+            return true;
+        } catch (NoSuchElementException ex) {
+            return false;
+        }
     }
 }

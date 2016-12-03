@@ -47,27 +47,37 @@
       <file leaf-file-name="ProductTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/ProductTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            <state relative-caret-position="255">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerCreationTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CustomerCreationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/CustomerCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-687">
-              <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
+            <state relative-caret-position="264">
+              <caret line="27" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1884#1885#0" expanded="true" />
                 <element signature="e#1970#1971#0" expanded="true" />
-                <element signature="e#5203#5204#0" expanded="true" />
-                <element signature="e#5296#5297#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountriesTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/CountriesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,9 +85,30 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+              <folding>
+                <element signature="e#3496#3497#0" expanded="true" />
+                <element signature="e#3588#3589#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewProductAdditionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/NewProductAdditionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1921">
+              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1558#1559#0" expanded="true" />
+                <element signature="e#1636#1637#0" expanded="true" />
+                <element signature="e#5157#5158#0" expanded="true" />
+                <element signature="e#5252#5253#0" expanded="true" />
+                <element signature="e#5290#5291#0" expanded="true" />
+                <element signature="e#5380#5381#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -441,8 +472,9 @@
         <option value="$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/CountriesTest.java" />
         <option value="$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/GeoZonesTest.java" />
         <option value="$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/ProductTest.java" />
-        <option value="$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/TestBase.java" />
         <option value="$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/CustomerCreationTest.java" />
+        <option value="$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/TestBase.java" />
+        <option value="$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/NewProductAdditionTest.java" />
       </list>
     </option>
   </component>
@@ -485,6 +517,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -532,7 +565,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,7 +581,7 @@
       <recent name="ru.stqa.training.selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerCreationTest">
+  <component name="RunManager" selected="JUnit.NewProductAdditionTest">
     <configuration default="false" name="StickerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -562,32 +594,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.StickerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/test-training" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CountriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="test-training_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.CountriesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -666,6 +672,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.CustomerCreationTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/test-training" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="NewProductAdditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="test-training_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.NewProductAdditionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -926,18 +958,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.StickerTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CountriesTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GeoZonesTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ProductTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CustomerCreationTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GeoZonesTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ProductTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CustomerCreationTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.NewProductAdditionTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerCreationTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ProductTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StickerTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GeoZonesTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CountriesTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NewProductAdditionTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CustomerCreationTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ProductTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StickerTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GeoZonesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -955,35 +987,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerCreationTest - 2016.12.02 at 20h 55m 21s.xml">
-      <configuration name="CustomerCreationTest" configurationId="JUnit" />
+    <history-entry file="NewProductAdditionTest - 2016.12.03 at 13h 06m 36s.xml">
+      <configuration name="NewProductAdditionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerCreationTest - 2016.12.02 at 20h 56m 46s.xml">
-      <configuration name="CustomerCreationTest" configurationId="JUnit" />
+    <history-entry file="NewProductAdditionTest - 2016.12.03 at 13h 07m 40s.xml">
+      <configuration name="NewProductAdditionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerCreationTest - 2016.12.02 at 20h 57m 05s.xml">
-      <configuration name="CustomerCreationTest" configurationId="JUnit" />
+    <history-entry file="NewProductAdditionTest - 2016.12.03 at 13h 08m 14s.xml">
+      <configuration name="NewProductAdditionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerCreationTest - 2016.12.02 at 20h 58m 24s.xml">
-      <configuration name="CustomerCreationTest" configurationId="JUnit" />
+    <history-entry file="NewProductAdditionTest - 2016.12.03 at 13h 09m 03s.xml">
+      <configuration name="NewProductAdditionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerCreationTest - 2016.12.02 at 21h 06m 32s.xml">
-      <configuration name="CustomerCreationTest" configurationId="JUnit" />
+    <history-entry file="NewProductAdditionTest - 2016.12.03 at 13h 23m 11s.xml">
+      <configuration name="NewProductAdditionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerCreationTest - 2016.12.02 at 21h 20m 09s.xml">
-      <configuration name="CustomerCreationTest" configurationId="JUnit" />
+    <history-entry file="NewProductAdditionTest - 2016.12.03 at 14h 18m 08s.xml">
+      <configuration name="NewProductAdditionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerCreationTest - 2016.12.02 at 21h 21m 09s.xml">
-      <configuration name="CustomerCreationTest" configurationId="JUnit" />
+    <history-entry file="NewProductAdditionTest - 2016.12.03 at 14h 20m 01s.xml">
+      <configuration name="NewProductAdditionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerCreationTest - 2016.12.02 at 21h 32m 41s.xml">
-      <configuration name="CustomerCreationTest" configurationId="JUnit" />
+    <history-entry file="NewProductAdditionTest - 2016.12.03 at 14h 20m 34s.xml">
+      <configuration name="NewProductAdditionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerCreationTest - 2016.12.02 at 21h 41m 48s.xml">
-      <configuration name="CustomerCreationTest" configurationId="JUnit" />
+    <history-entry file="NewProductAdditionTest - 2016.12.03 at 14h 46m 28s.xml">
+      <configuration name="NewProductAdditionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerCreationTest - 2016.12.02 at 21h 45m 21s.xml">
-      <configuration name="CustomerCreationTest" configurationId="JUnit" />
+    <history-entry file="NewProductAdditionTest - 2016.12.03 at 14h 56m 07s.xml">
+      <configuration name="NewProductAdditionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1068,13 +1100,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1376,62 +1401,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/StickerTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/MenuMoveTest.java">
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/StickerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="187">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/GeoZonesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="255">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/CountriesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/ProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="289">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3496#3497#0" expanded="true" />
+            <element signature="e#3588#3589#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/CustomerCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-687">
-          <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
+        <state relative-caret-position="264">
+          <caret line="27" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1884#1885#0" expanded="true" />
             <element signature="e#1970#1971#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
-            <element signature="e#5296#5297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/CountriesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/ProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-training/src/test/java/ru/stqa/training/selenium/NewProductAdditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1558#1559#0" expanded="true" />
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#5157#5158#0" expanded="true" />
+            <element signature="e#5252#5253#0" expanded="true" />
+            <element signature="e#5290#5291#0" expanded="true" />
+            <element signature="e#5380#5381#0" expanded="true" />
           </folding>
         </state>
       </provider>
