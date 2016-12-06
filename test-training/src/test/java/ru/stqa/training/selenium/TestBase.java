@@ -35,7 +35,7 @@ public class TestBase {
         goHomePage();
     }
 
-    private void goHomePage() {
+    public void goHomePage() {
         driver.get("http://localhost/litecart/");
     }
 
