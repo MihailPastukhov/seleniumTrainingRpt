@@ -9,8 +9,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -24,17 +28,22 @@ public class TestBase {
     public WebDriverWait wait;
 
     @Before
-    public void start(){
-        init();
+    public void start() throws MalformedURLException {
+       // init();
+        //initRemote();
+    }
+
+    private void initRemote() throws MalformedURLException {
+        driver = new RemoteWebDriver(new URL("http://10.0.2.15:4444/wd/hub"), DesiredCapabilities.chrome());
     }
 
     private void init() {
-        //driver = new InternetExplorerDriver();
+        /*
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        goHomePage();
+        goHomePage();*/
     }
 
     public void goHomePage() {
