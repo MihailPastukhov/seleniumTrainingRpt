@@ -107,8 +107,4 @@ public class NewProductAdditionTest extends TestBase{
         driver.findElement(By.xpath("//a[contains(text(),'Add New Product')]")).click();
     }
 
-    private void goToCatalogPage() {
-        driver.findElement(By.xpath("//span[contains(text(),'Catalog')]")).click();
-    }
-
 }

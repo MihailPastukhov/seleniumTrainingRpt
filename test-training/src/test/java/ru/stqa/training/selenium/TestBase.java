@@ -29,7 +29,7 @@ public class TestBase {
 
     @Before
     public void start() throws MalformedURLException {
-       // init();
+        init();
         //initRemote();
     }
 
@@ -38,12 +38,12 @@ public class TestBase {
     }
 
     private void init() {
-        /*
+
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        goHomePage();*/
+        goHomePage();
     }
 
     public void goHomePage() {
@@ -119,6 +119,11 @@ public class TestBase {
     protected void goToCountriesPage() {
         driver.findElement(By.xpath("//span[contains(text(),'Countries')]")).click();
     }
+
+    protected void goToCatalogPage() {
+        driver.findElement(By.xpath("//span[contains(text(),'Catalog')]")).click();
+    }
+
 
     protected void goToGeoZonesPage() {
         driver.findElement(By.xpath("//span[contains(text(),'Geo Zones')]")).click();
